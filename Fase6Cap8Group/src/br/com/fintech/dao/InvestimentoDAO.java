@@ -47,7 +47,7 @@ public class InvestimentoDAO {
     	    ResultSet rs = null;
     	    try {
     	      conexao = FintechDBManager.obterConexao();
-    	      stmt = conexao.prepareStatement("SELECT * FROM T_SIP_INVESTIMENTOS");
+    	      stmt = conexao.prepareStatement("SELECT * FROM T_SIP_INVESTIMENTOS ORDER BY ID_INVESTIMENTO ASC");
     	      rs = stmt.executeQuery();
     	  
 
