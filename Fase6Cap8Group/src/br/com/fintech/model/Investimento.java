@@ -1,4 +1,4 @@
-package br.com.fintech;
+package br.com.fintech.model;
 
 import java.util.Calendar;
   
